@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello App</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+    <!-- HEADER  -->
+    <header>
+        
+        <section class="logo">
+            <img src="images/logo1.png" alt="logo">
+            <h1>Trello App</h1>
+        </section>
+        <a href="#">
+            <img src="images/modo-oscuro.png" alt="dark-mode-icon" class="dark-mode-icon">
+        </a>
+        </section>
+    
+    </header>
+    
+    <!-- MAIN  -->
+    <main>
+
+        <!-- LISTA DB  -->
+        <section class="lista-db">
+            <h1>LISTA DB</h1>
+            
+        </section>
+
+        <!-- SETUP/SYNC  -->
+        <section class="setup-sync">
+
+            <!-- SETUP  -->
+            <article class="setup">
+                <h1>SETUP</h1>
+                
+                <form id="trelloForm">
+                    <label for="boardIds">Board IDs (separados por comas):</label><br>
+                    <input type="text" id="boardIds" name="boardIds" placeholder="ej: 255, 288..."><br><br>
+            
+                    <label for="idOrg">ID de la Organización:</label><br>
+                    <input type="text" id="idOrg" name="idOrg" value="66017f3774129c5a8a88249b"><br><br>
+            
+
+                    <label for="option">Forzar:</label>
+                    <input type="checkbox" id="force" name="force"><br>
+            
+                    <div class="contenedor-botones">
+                        <button type="button" id="setupMsToTrello">Setup MS to Trello</button>
+                        <button type="button" id="setupTrelloToMs">Setup Trello to MS</button>
+                    </div>
+                </form>
+
+            </article>
+            
+            <!-- SYNC  -->
+            <article class="sync">
+
+            </article>
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
