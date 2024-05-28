@@ -55,7 +55,7 @@ main {
 
 .contenedor-botones {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 main > .lista-db {
